@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,f1fr);
+    grid-template-rows: repeat(4,1fr);
+    
+}
+.container-item{
+    border: 1px solid blueviolet;
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+.container-item1{
+    grid-column: span 3;
+
+}
+.container-item2{
+    grid-column: span 2;
+    grid-row: span 2;
+
+}
+.container-item3{
+    grid-row: span 2;
+
+}
+.container-item4{
+    grid-column: span 3;
+
+}
