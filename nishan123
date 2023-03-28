@@ -1,5 +1,0 @@
-public class main{
-
-}
-    public static avoid main(String[]args){
-        System.out.println("hellow nishan");
